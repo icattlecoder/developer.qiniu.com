@@ -48,9 +48,8 @@ order: 990
 	
 以下PHP代码示范了上面的完整过程。如果希望了解其他语言的实现，请查看相应SDK的源代码（所有SDK均在[Github](https://github.com/qiniu)上完全开源）。
 
-```
+``` php
 <?php
-
 /**
  * urlsafe_base64_encode
  *
@@ -95,6 +94,10 @@ $access_token = generate_token($access_key, $secret_key, $url);
 
 var_dump($access_token);
 ```
+
+## 在线示例
+
+<iframe width="100%" height="600" src="http://jsfiddle.net/icattlecoder/C8r7J/embedded/result,js,html,resources/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 [putPolicyHref]:            put-policy.html         "上传策略"
 [uploadTokenHref]:          upload-token.html       "上传凭证"
