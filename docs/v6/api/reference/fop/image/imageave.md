@@ -47,7 +47,7 @@ Content-Type: application/json
 Cache-Control: no-store
 
 {
-    "RGB":       "<RGB hex string>",
+    "RGB":       "<RGB hex string>"
 }
 ```
 
@@ -66,7 +66,7 @@ Cache-Control  | 是   | 缓存控制，固定为no-store，不缓存
 
 ```
 {
-    "RGB":       "<RGB hex string>",
+    "RGB":       "<RGB hex string>"
 }
 ```
 
@@ -79,7 +79,7 @@ RGB         | 是     | RGB值，hex字符串格式
 ```
 {
 	"code":     <httpCode  int>, 
-    "error":   "<errMsg    string>",
+    "error":   "<errMsg    string>"
 }
 ```
 
