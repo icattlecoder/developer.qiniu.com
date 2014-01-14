@@ -47,9 +47,7 @@ Content-Type: application/json
 Cache-Control: no-store
 
 {
-    "R":       "<Red    uint8>",
-    "G":       "<Green  uint8>",
-    "B":       "<Blue   uint8>"
+    "RGB":       "<RGB hex string>",
 }
 ```
 
@@ -68,17 +66,13 @@ Cache-Control  | 是   | 缓存控制，固定为no-store，不缓存
 
 ```
 {
-    "R":       "<Red    uint8>",
-    "G":       "<Green  uint8>",
-    "B":       "<Blue   uint8>"
+    "RGB":       "<RGB hex string>",
 }
 ```
 
 字段名称       | 必填   | 说明
 :------------- | :----- | :------------------------------
-R         | 是     | 红色
-G          | 是     | 绿色
-B         | 是     | 蓝色
+RGB         | 是     | RGB值，hex字符串格式
 
 ■ 如果请求失败，返回包含如下内容的JSON字符串（已格式化，便于阅读）：  
 
@@ -110,9 +104,7 @@ B         | 是     | 蓝色
 
 	```
     {
-        "R":   128,
-        "G":   234,
-        "B":   32
+        "RGB":   "0xf2f2f2"
     }
 	```
 
