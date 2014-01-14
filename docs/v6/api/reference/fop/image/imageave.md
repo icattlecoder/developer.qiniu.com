@@ -68,10 +68,9 @@ Cache-Control  | 是   | 缓存控制，固定为no-store，不缓存
 
 ```
 {
-    "format":       "<ImageType         string>",
-    "width":         <ImageWidth        int>,
-    "height":        <ImageHeight       int>,
-    "colorModel":   "<ImageColorModel   string>"
+    "R":       "<Red    uint8>",
+    "G":       "<Green  uint8>",
+    "B":       "<Blue   uint8>"
 }
 ```
 
